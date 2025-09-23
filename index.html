@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>
-<script type='text/javascript'>
-	function initAgentforceMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-			embeddedservice_bootstrap.settings.devMode = true;
-
-			embeddedservice_bootstrap.init(
-				'00DB0000000gb6A',
-				'CWC_MIAW_DEMO',
-				'https://orgfarm-7a6a6752f8.my.site-com.37xatyg49vqa0nek46fx.wc.crm.dev:6101/ESWcwc1758557659457',
-				{
-					scrt2URL: 'https://deevo-demo.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
-</script>
-<script type='text/javascript' src='https://orgfarm-7a6a6752f8.my.site-com.37xatyg49vqa0nek46fx.wc.crm.dev:6101/ESWcwc1758557659457/assets/js/init.js' onload='initAgentforceMessaging()'></script>
-</body>
-	</html>
+   <body>
+      <script type='text/javascript'>
+         function initAgentforceMessaging() {
+         	try {
+         		embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+         		embeddedservice_bootstrap.settings.devMode = true;
+         
+         		embeddedservice_bootstrap.init(
+         			'00DB0000000gb6A',
+         			'CWC_MIAW_DEMO',
+         			'https://orgfarm-7a6a6752f8.my.site-com.37xatyg49vqa0nek46fx.wc.crm.dev:6101/ESWcwc1758557659457',
+         			{
+         				scrt2URL: 'https://deevo-demo.my.salesforce-scrt.com'
+         			}
+         		);
+         	} catch (err) {
+         		console.error('Error loading Embedded Messaging: ', err);
+         	}
+         };
+      </script>
+      <script type='text/javascript' src='https://orgfarm-7a6a6752f8.my.site-com.37xatyg49vqa0nek46fx.wc.crm.dev:6101/ESWcwc1758557659457/assets/js/init.js' onload='initAgentforceMessaging()'></script>
+   </body>
+</html>
